@@ -1,5 +1,3 @@
-console.log(9 * 7 * 5 * 3 * 2 * 10);
-
 function solution(n, areFriends) {
   const taken = Array(n).fill(false);
   return countPairings(taken, areFriends);
